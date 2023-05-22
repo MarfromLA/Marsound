@@ -12,6 +12,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="name"
+        android:text="Name"
         tools:layout_editor_absoluteY="382dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
