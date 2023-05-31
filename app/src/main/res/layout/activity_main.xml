@@ -30,6 +30,9 @@
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
+
+
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
@@ -59,70 +62,70 @@
         app:layout_constraintGuide_begin="706dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/scooby"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Scooby"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/scream"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Scream"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/deeznuts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Deez Nuts"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/nooo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Nooo"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/l"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="L"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/wasted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Wasted"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/trey"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Trey"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintHorizontal_bias="0.39"
@@ -131,11 +134,11 @@
         app:layout_constraintVertical_bias="0.47" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/statefarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="State Farm"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.521"
