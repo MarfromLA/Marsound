@@ -56,34 +56,34 @@
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="706dp" />
 
     <Button
-        android:id="@+id/scooby"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_seinfeld"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Scooby"
+        android:text="Seinfeld"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/scream"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_fart"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Scream"
+        android:text="Fart"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/deeznuts"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_deeznuts"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Deez Nuts"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
@@ -92,18 +92,18 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/nooo"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_lebron"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Nooo"
+        android:text="Lebron"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/l"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_l"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="L"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
@@ -112,8 +112,8 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/wasted"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_wasted"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Wasted"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
@@ -122,9 +122,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <Button
-        android:id="@+id/trey"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_trey"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="Trey"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/button9"
@@ -134,8 +135,8 @@
         app:layout_constraintVertical_bias="0.47" />
 
     <Button
-        android:id="@+id/statefarm"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_statefarm"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="State Farm"
@@ -147,11 +148,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_bruh"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Button"
+        android:text="Bruh"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -159,20 +160,20 @@
         app:layout_constraintVertical_bias="0.166" />
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_johncena"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="John Cena"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_bingchilling"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Bing Chilling"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.521"
