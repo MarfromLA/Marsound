@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CC8FCF"
     tools:context=".MainActivity">
 
     <EditText
@@ -21,16 +22,14 @@
         app:layout_constraintVertical_bias="0.026" />
 
     <Button
-        android:id="@+id/btn_quandale"
+        android:id="@+id/btn_anotherone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quandale"
+        android:text="Another One"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
-
-
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -72,20 +71,20 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/btn_fart"
+        android:id="@+id/btn_fivegum"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Fart"
+        android:text="5 Gum"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/btn_deeznuts"
+        android:id="@+id/btn_oof"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Deez Nuts"
+        android:text="Oof"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -102,7 +101,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/btn_l"
+        android:id="@+id/btn_takethel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="L"
@@ -125,21 +124,18 @@
         android:id="@+id/btn_trey"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:text="Trey"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
-        app:layout_constraintEnd_toStartOf="@+id/button9"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toTopOf="@+id/guideline9"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <Button
-        android:id="@+id/btn_statefarm"
+        android:id="@+id/btn_twohourslater"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="State Farm"
+        android:text="2 Hours"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.521"
